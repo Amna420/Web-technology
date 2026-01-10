@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    align-content: space-around;
+    align-items: flex-end;
+    align-items: normal;
+}
+.c{
+    width: 100px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+
+}
+.c0{
+    justify-content:start;
+    flex-grow: 2;
+    background-color:rgb(55, 109, 156);
+}
+.c1{
+    background-color: aquamarine;
+}
+.c2{
+    background-color: rgb(133, 66, 66);
+
+}
+.c3{
+    background-color: rgb(99, 47, 148);
+}
+.c4{
+    width: 80px;
+}
+img{
+ padding-left: 20px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+   gap: 100px;
+    align-content:space-between;
+}
